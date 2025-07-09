@@ -54,7 +54,7 @@ Từ câu chuyện lịch sử đến chia sẻ người thật – việc thậ
       solidColor: 'bg-orange-400',
     },
     {
-      id: '2_NT',
+      id: '3_NT',
       name: 'Talkshow Nghệ Thuật “Một cuốn sách - Một cuộn phim”',
       time: '15:00-17:00 19/07/2025',
       description: 'Đạo diễn - Biên kịch Nguyễn Việt Linh sẽ chia sẻ những câu chuyện thú vị',

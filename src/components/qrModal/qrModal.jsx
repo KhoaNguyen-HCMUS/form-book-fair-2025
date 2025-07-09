@@ -17,9 +17,8 @@ const QRModal = ({ attenderId, state, onClose }) => {
           />
         </div>
         <p className='text-gray-600 text-center mb-6'>
-          {state === 'new'
-            ? 'Hãy kiểm tra email (bao gồm hộp thư spam) để nhận thông tin chi tiết. Chụp lại mã QR này để sử dụng tại sự kiện.'
-            : 'Thông tin của bạn đã được cập nhật thành công. Vui lòng sử dụng mã QR trong email cũ để tham gia sự kiện.'}
+          Hãy kiểm tra email (bao gồm hộp thư spam) để nhận thông tin chi tiết. Chụp lại mã QR này để sử dụng tại sự
+          kiện.
         </p>
         <div className='flex justify-center'>
           <button

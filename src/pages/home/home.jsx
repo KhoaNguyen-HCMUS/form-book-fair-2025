@@ -25,6 +25,7 @@ const Home = () => {
   const [showQRModal, setShowQRModal] = useState(false);
   const [attenderId, setAttenderId] = useState('');
   const [state, setState] = useState('');
+  const [loading, setLoading] = useState(false);
 
   const events = [
     {
@@ -116,9 +117,8 @@ Từ câu chuyện lịch sử đến chia sẻ người thật – việc thậ
       programs: formData.events.map((eventId) => ({ program_id: eventId })),
     };
 
-    console.log('Submitting payload:', payload);
-
     try {
+      setLoading(true);
       const response = await fetch(URL, {
         method: 'POST',
         headers: {
@@ -130,13 +130,9 @@ Từ câu chuyện lịch sử đến chia sẻ người thật – việc thậ
       const result = await response.json();
 
       if (result.success) {
-        alert('Đăng ký thành công!');
-        console.log('API result:', result);
-
         setAttenderId(result.attender_id);
         setState(result.state);
         setShowQRModal(true);
-
         setFormData({ name: '', email: '', events: [] });
       } else {
         alert('Đăng ký thất bại. Vui lòng thử lại!');
@@ -145,6 +141,8 @@ Từ câu chuyện lịch sử đến chia sẻ người thật – việc thậ
     } catch (error) {
       alert('Lỗi kết nối đến máy chủ. Vui lòng thử lại!');
       console.error('Fetch Error:', error);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -301,10 +299,14 @@ Từ câu chuyện lịch sử đến chia sẻ người thật – việc thậ
               </div>
 
               <div
-                onClick={handleSubmit}
-                className='w-full bg-gradient-to-r from-orange-400 to-red-400 text-white px-6 py-3 rounded-xl font-semibold hover:from-orange-500 hover:to-red-500 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl cursor-pointer text-center'
+                onClick={!loading ? handleSubmit : null}
+                className={`w-full bg-gradient-to-r from-orange-400 to-red-400 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-200 transform shadow-lg text-center cursor-pointer ${
+                  loading
+                    ? 'opacity-50 cursor-not-allowed'
+                    : 'hover:from-orange-500 hover:to-red-500 hover:scale-105 hover:shadow-xl'
+                }`}
               >
-                Đăng ký tham gia
+                {loading ? 'Đang xử lý...' : 'Đăng ký tham gia'}
               </div>
             </div>
           </div>

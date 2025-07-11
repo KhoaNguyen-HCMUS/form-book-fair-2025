@@ -88,6 +88,7 @@ const Home = () => {
       bgColor: 'bg-blue-50',
       borderColor: 'border-blue-300',
       solidColor: 'bg-blue-400',
+      image: '/DN.png',
     },
     {
       id: '6_BM',

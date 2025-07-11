@@ -33,7 +33,7 @@ const Home = () => {
       name: 'Lễ Khai Mạc Hội sách Mơ Hỏi Mở',
       time: '8:00-9:00 18/07/2025',
       description:
-        'Hội sách Mơ Hỏi Mở ra đời với sứ mệnh không chỉ để lan tỏa tình yêu sách, mà còn để thắp lên ngọn lửa đam mê đọc sách trong mỗi người. Thông qua hành trình mới cùng các bạn độc giả, Ban tổ chức hy vọng sẽ viết nên một chương mới đầy ý nghĩa cho những trang sách này.',
+        'Với sứ mệnh truyền cảm hứng đọc và nuôi dưỡng tình yêu sách trong cộng đồng người trẻ Bến Tre, Hội sách Mơ Hỏi Mở chính thức ra mắt. Lễ Khai mạc không chỉ là khởi điểm cho một hành trình đầy ý nghĩa, mà còn là dịp đặc biệt để vinh danh những bài thi ấn tượng đã vượt trội trong cuộc thi "Quyển sách đầu tiên".',
       icon: BookOpen,
       color: 'from-yellow-400 to-orange-400',
       bgColor: 'bg-yellow-50',
@@ -44,49 +44,72 @@ const Home = () => {
       id: '2_LSVH',
       name: 'Talkshow Lịch Sử, Văn Hóa “Hành trình BIẾT – Câu chuyện khai mở tri thức: từ quá khứ đến hiện tại và tương lai” ',
       time: '08:00-10:00 19/07/2025',
-      description: `Bạn đã bao giờ tự hỏi: vì sao có người học để đổi đời, có người học để hiểu mình, còn có người học chỉ vì… phải học?
-Rằng những người đi trước – như cụ Lương Khắc Ninh – đã học để làm gì? Và người trẻ hôm nay có thể học như thế nào, giữa một thế giới đầy thông tin nhưng dễ lạc lối?
-Từ câu chuyện lịch sử đến chia sẻ người thật – việc thật, Talkshow Hành trình BIẾT – Câu chuyện khai mở tri thức: từ quá khứ đến hiện tại và tương lai là dịp để bạn lắng nghe, đối thoại, và tự gợi mở cho chính mình con đường học tập thật sự có ý nghĩa. Mong chờ được gặp bạn vào 8h00 ngày 19/7/2025 tại Hội sách Mơ Hỏi Mở 2025 – những con người đang đi trên hành trình học, hiểu và lớn lên từng ngày.`,
+      description: `Bạn đang tìm kiếm con đường học tập thật sự ý nghĩa? Có lẽ talkshow này sẽ phù hợp với bạn, giúp bạn được lắng nghe, đối thoại và tự gợi mở những ý tưởng mới. Chúng ta sẽ cùng nhau khám phá lát cắt của lịch sử và văn hóa, qua những mảnh chuyện thú vị và cuộc đời của các nhân vật vĩ đại trong quá khứ - những người đã định hình nên tầm vóc của mình nhờ văn hóa đọc và sự học hỏi không ngừng. Diễn giả của chương trình đang rất mong chờ được gặp và chia sẻ cùng bạn, người đang miệt mài trên hành trình học, hiểu và lớn lên từng ngày!`,
       icon: Globe,
       color: 'from-orange-400 to-red-400',
       bgColor: 'bg-orange-50',
       borderColor: 'border-orange-300',
       solidColor: 'bg-orange-400',
+      image: '/LSVH.png',
     },
     {
-      id: '3_NT',
-      name: 'Talkshow Nghệ Thuật “Một cuốn sách - Một cuộn phim”',
-      time: '15:00-17:00 19/07/2025',
-      description: 'Đạo diễn - Biên kịch Nguyễn Việt Linh sẽ chia sẻ những câu chuyện thú vị',
-      icon: Palette,
+      id: '3_TV',
+      name: 'Talkshow Tiếng Việt "Ta như chim trong tiếng Việt như rừng"',
+      time: '8:00-10:00 20/07/2025',
+      description:
+        'Bạn có bao giờ tự hỏi tiếng Việt mà mình đang sử dụng hằng ngày có tự bao giờ, hay từ cơ sở nào mà chúng ta hay kháo với nhau rằng “tiếng Việt giàu và đẹp”. Bên cạnh đó, phương ngữ miền Nam từ đâu mà ra, “quá giang” có nghĩa là gì hay tương lai của tiếng Việt sẽ như thế nào. Tất cả những thắc mắc trên sẽ được diễn giả gợi mở trong Talkshow “Ta như chim trong tiếng Việt như rừng” vào 8g00 sáng ngày 20 tháng 7 tại Hội sách Mơ Hỏi Mở. Mong chờ bạn – người yêu tiếng Việt thiết tha.',
+      icon: MessageCircle,
       color: 'from-red-400 to-red-500',
       bgColor: 'bg-red-50',
       borderColor: 'border-red-300',
       solidColor: 'bg-red-400',
     },
     {
-      id: '4_DN',
-      name: 'Đêm Nhạc “Bước Ra Từ Trang Sách”',
-      time: '18:00-20:00 19/07/2025',
+      id: '4_NT',
+      name: 'Talkshow Nghệ Thuật “Hành trình CẢM - Một cuốn sách, một cuộn phim”',
+      time: '15:00-17:00 19/07/2025',
       description:
-        'Đêm nhạc “Bước Ra Từ Trang Sách” nhằm mang đến một trải nghiệm âm nhạc khơi gợi sự tò mò về văn học dân gian và văn học Việt Nam cho người tham dự để họ có thể bắt đầu hành trình khám phá văn hoá Việt Nam.',
-      icon: Music,
+        'Bạn có bao giờ tự hỏi tiếng Việt mà mình đang sử dụng hằng ngày có tự bao giờ, hay từ cơ sở nào mà chúng ta hay kháo với nhau rằng “tiếng Việt giàu và đẹp”. Bên cạnh đó, phương ngữ miền Nam từ đâu mà ra, “quá giang” có nghĩa là gì hay tương lai của tiếng Việt sẽ như thế nào. Tất cả những câu hỏi này sẽ được diễn giả của chúng ta gợi mở trong talkshow đặc biệt mang tên “Ta như chim trong tiếng Việt như rừng”. Hãy cùng khám phá vẻ đẹp và chiều sâu của tiếng Việt nhé!',
+      icon: Palette,
+
       color: 'from-green-400 to-blue-400',
       bgColor: 'bg-green-50',
       borderColor: 'border-green-300',
       solidColor: 'bg-green-400',
     },
     {
-      id: '5_TV',
-      name: 'Talkshow Tiếng Việt "Ta như chim trong tiếng Việt như rừng"',
-      time: '8:00-10:00 20/07/2025',
+      id: '5_DN',
+      name: 'Đêm Nhạc “Bước Ra Từ Trang Sách”',
+      time: '18:00-20:00 19/07/2025',
       description:
-        'Bạn có bao giờ tự hỏi tiếng Việt mà mình đang sử dụng hằng ngày có tự bao giờ, hay từ cơ sở nào mà chúng ta hay kháo với nhau rằng “tiếng Việt giàu và đẹp”. Bên cạnh đó, phương ngữ miền Nam từ đâu mà ra, “quá giang” có nghĩa là gì hay tương lai của tiếng Việt sẽ như thế nào. Tất cả những thắc mắc trên sẽ được diễn giả gợi mở trong Talkshow “Ta như chim trong tiếng Việt như rừng” vào 8g00 sáng ngày 20 tháng 7 tại Hội sách Mơ Hỏi Mở. Mong chờ bạn – người yêu tiếng Việt thiết tha.',
-      icon: MessageCircle,
+        'Đêm nhạc “Bước Ra Từ Trang Sách” nhằm mang đến một trải nghiệm âm nhạc khơi gợi sự tò mò về văn học dân gian và văn học Việt Nam cho người tham dự để họ có thể bắt đầu hành trình khám phá văn hoá Việt Nam.',
+      icon: Music,
       color: 'from-blue-400 to-purple-500',
       bgColor: 'bg-blue-50',
       borderColor: 'border-blue-300',
       solidColor: 'bg-blue-400',
+    },
+    {
+      id: '6_BM',
+      name: 'Lễ Bế Mạc Hội sách Mơ Hỏi Mở',
+      time: '10:00-11:00 20/07/2025',
+      description: (
+        <>
+          Lễ bế mạc không chỉ đánh dấu sự khép lại của Hội sách mà còn mở ra một hành trình khám phá văn hóa đọc đầy hứa
+          hẹn cho mỗi chúng ta. Ban tổ chức tin rằng, với những hoạt động đa dạng và thú vị trong suốt ba ngày hội sách,
+          bạn sẽ nhận được thật nhiều "món quà" giá trị về tinh thần và tri thức.{' '}
+          <span className='font-bold text-red-500'>
+            Đặc biệt, nếu đã đăng ký và tham gia đầy đủ 3/5 chương trình trong chuỗi hoạt động văn hóa này, bạn còn có
+            cơ hội nhận những món quà thực tế giá trị từ Ban tổ chức ngay sau buổi lễ bế mạc!
+          </span>
+        </>
+      ),
+      icon: Calendar,
+      color: 'from-indigo-400 to-pink-400',
+      bgColor: 'bg-indigo-50',
+      borderColor: 'border-indigo-300',
+      solidColor: 'bg-indigo-400',
+      noRegistration: true,
     },
   ];
 
@@ -191,7 +214,14 @@ Từ câu chuyện lịch sử đến chia sẻ người thật – việc thậ
                           </div>
                         </div>
                       </div>
-                      <p className='text-sm text-gray-700 leading-relaxed'>{event.description}</p>
+                      {event.image && (
+                        <img
+                          src={event.image}
+                          alt={event.name}
+                          className={`w-full h-auto object-contain rounded-lg mb-3 border-2 ${event.borderColor}`}
+                        />
+                      )}
+                      <p className='text-sm text-gray-700 leading-relaxed text-justify'>{event.description}</p>
                     </div>
                   </div>
                 );
@@ -277,20 +307,24 @@ Từ câu chuyện lịch sử đến chia sẻ người thật – việc thậ
                               </div>
                             </div>
                           </div>
-                          <div
-                            className={`w-6 h-6 rounded-full border-2 flex items-center justify-center transition-all duration-200 flex-shrink-0 mt-1 ${
-                              isSelected ? 'bg-orange-400 border-orange-400' : 'border-gray-300 bg-white'
-                            }`}
-                          >
-                            {isSelected && <Check className='w-4 h-4 text-white' />}
-                          </div>
-                          <input
-                            type='checkbox'
-                            id={event.id}
-                            checked={isSelected}
-                            onChange={() => handleEventSelection(event.id)}
-                            className='hidden'
-                          />
+                          {!event.noRegistration && (
+                            <div
+                              className={`w-6 h-6 rounded-full border-2 flex items-center justify-center transition-all duration-200 flex-shrink-0 mt-1 ${
+                                isSelected ? 'bg-orange-400 border-orange-400' : 'border-gray-300 bg-white'
+                              }`}
+                            >
+                              {isSelected && <Check className='w-4 h-4 text-white' />}
+                            </div>
+                          )}
+                          {!event.noRegistration && (
+                            <input
+                              type='checkbox'
+                              id={event.id}
+                              checked={isSelected}
+                              onChange={() => handleEventSelection(event.id)}
+                              className='hidden'
+                            />
+                          )}
                         </label>
                       </div>
                     );

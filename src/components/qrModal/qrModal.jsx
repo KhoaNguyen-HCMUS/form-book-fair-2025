@@ -22,7 +22,7 @@ const QRModal = ({ attenderId, state, onClose }) => {
         </p>
         <div className='flex justify-center'>
           <button
-            className='bg-red-500 text-white px-6 py-2 rounded-lg hover:bg-red-600 transition-colors'
+            className='bg-red-500 text-white px-6 py-2 rounded-lg hover:bg-red-600 transition-colors cursor-pointer'
             onClick={onClose}
           >
             Đóng

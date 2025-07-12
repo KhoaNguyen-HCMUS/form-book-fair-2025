@@ -70,7 +70,7 @@ const Home = () => {
       name: 'Talkshow Nghệ Thuật “Hành trình CẢM - Một cuốn sách, một cuộn phim”',
       time: '15:00-17:00 19/07/2025',
       description:
-        'Bạn có bao giờ tự hỏi tiếng Việt mà mình đang sử dụng hằng ngày có tự bao giờ, hay từ cơ sở nào mà chúng ta hay kháo với nhau rằng “tiếng Việt giàu và đẹp”. Bên cạnh đó, phương ngữ miền Nam từ đâu mà ra, “quá giang” có nghĩa là gì hay tương lai của tiếng Việt sẽ như thế nào. Tất cả những câu hỏi này sẽ được diễn giả của chúng ta gợi mở trong talkshow đặc biệt mang tên “Ta như chim trong tiếng Việt như rừng”. Hãy cùng khám phá vẻ đẹp và chiều sâu của tiếng Việt nhé!',
+        'Khi điện ảnh tựa lưng vào văn học, một sự cộng hưởng mạnh mẽ đã ra đời, biến những câu chuyện in trên trang giấy thành thế giới sống động trên màn ảnh. Qua nhiều năm, không ít tác phẩm văn học kinh điển đã vươn tới tầm cao mới, chạm đến trái tim khán giả toàn cầu nhờ phương pháp chuyển thể đầy tính nghệ thuật này. Bạn có tò mò làm thế nào các đạo diễn tài hoa thực hiện điều đó, và làm thế nào văn hóa đọc đã giúp họ kiến tạo nên những thước phim tuyệt vời, để khán giả có thể cảm nhận trọn vẹn tinh hoa văn chương qua ngôn ngữ điện ảnh? !',
       icon: Palette,
 
       color: 'from-green-400 to-blue-400',

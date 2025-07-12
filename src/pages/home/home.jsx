@@ -63,6 +63,7 @@ const Home = () => {
       bgColor: 'bg-red-50',
       borderColor: 'border-red-300',
       solidColor: 'bg-red-400',
+      image: '/TV.png',
     },
     {
       id: '4_NT',

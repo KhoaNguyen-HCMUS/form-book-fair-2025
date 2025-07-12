@@ -77,6 +77,7 @@ const Home = () => {
       bgColor: 'bg-green-50',
       borderColor: 'border-green-300',
       solidColor: 'bg-green-400',
+      image: '/NT.png',
     },
     {
       id: '5_DN',

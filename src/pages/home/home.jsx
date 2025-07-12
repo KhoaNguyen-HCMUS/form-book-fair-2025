@@ -134,6 +134,11 @@ const Home = () => {
       alert('Vui lòng điền đầy đủ thông tin và chọn ít nhất một sự kiện!');
       return;
     }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(formData.email)) {
+      alert('Vui lòng nhập email hợp lệ!');
+      return;
+    }
 
     const URL = `${import.meta.env.VITE_DOMAIN}/api/register`;
 

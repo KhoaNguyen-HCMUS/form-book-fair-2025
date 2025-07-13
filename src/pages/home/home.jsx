@@ -54,10 +54,10 @@ const Home = () => {
     },
     {
       id: '3_TV',
-      name: 'Talkshow Tiếng Việt "Ta như chim trong tiếng Việt như rừng"',
+      name: 'Talkshow Tiếng Việt "Hành trình HIỂU - Ta như chim, trong Tiếng Việt như rừng"',
       time: '8:00-10:00 20/07/2025',
       description:
-        'Bạn có bao giờ tự hỏi tiếng Việt mà mình đang sử dụng hằng ngày có tự bao giờ, hay từ cơ sở nào mà chúng ta hay kháo với nhau rằng “tiếng Việt giàu và đẹp”. Bên cạnh đó, phương ngữ miền Nam từ đâu mà ra, “quá giang” có nghĩa là gì hay tương lai của tiếng Việt sẽ như thế nào. Tất cả những thắc mắc trên sẽ được diễn giả gợi mở trong Talkshow “Ta như chim trong tiếng Việt như rừng” vào 8g00 sáng ngày 20 tháng 7 tại Hội sách Mơ Hỏi Mở. Mong chờ bạn – người yêu tiếng Việt thiết tha.',
+        'Bạn có bao giờ tự hỏi tiếng Việt mà mình đang sử dụng hằng ngày có tự bao giờ, hay từ cơ sở nào mà chúng ta hay kháo với nhau rằng “tiếng Việt giàu và đẹp”. Bên cạnh đó, phương ngữ miền Nam từ đâu mà ra, “quá giang” có nghĩa là gì hay tương lai của tiếng Việt sẽ như thế nào. Tất cả những thắc mắc trên sẽ được diễn giả gợi mở trong Talkshow “Hành trình HIỂU - Ta như chim, trong Tiếng Việt như rừng” vào 8g00 sáng ngày 20 tháng 7 tại Hội sách Mơ Hỏi Mở. Mong chờ bạn – người yêu tiếng Việt thiết tha.',
       icon: MessageCircle,
       color: 'from-red-400 to-red-500',
       bgColor: 'bg-red-50',
